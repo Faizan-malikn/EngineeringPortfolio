@@ -3,50 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | Engineering Portfolio</title>
+    <title>Faizan Malik | Engineering Portfolio</title>
+    <!-- Font for FMALIK -->
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <!-- Link to CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- Navigation Bar -->
     <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
+        <h1>FMALIK</h1>
+        <ul>
+            <li><a href="index.html" style="font-weight: bold; color: white; text-transform: uppercase;">About</a></li>
+            <li><a href="projects.html" style="font-weight: bold; color: white; text-transform: uppercase;">Projects</a></li>
+            <li><a href="resume01.pdf" target="_blank" style="font-weight: bold; color: white; text-transform: uppercase;">Resume</a></li>
+            <li><a href="contact.html" style="font-weight: bold; color: white; text-transform: uppercase;">Contact</a></li>
+        </ul>
     </header>
 
     <!-- Hero Section -->
     <section class="hero">
-        <h1>Welcome to My Engineering Portfolio</h1>
-        <p>Innovating Robotics, Rocketry, and Engineering Solutions</p>
-        <div class="hero-buttons">
-            <a href="projects.html" class="btn">Explore Projects</a>
-            <a href="about.html" class="btn">About Me</a>
-            <a href="contact.html" class="btn">Contact</a>
+        <div class="hero-content">
+            <h1>Faizan Malik</h1>
+            <p>3rd year Mechatronics Engineering Student</p>
+            <p>Passionate about Robotics, Automation, and Engineering Innovations</p>
+            <div class="hero-buttons">
+                <a href="projects.html" class="btn">Explore Projects</a>
+                <a href="contact.html" class="btn">Contact</a>
+            </div>
         </div>
     </section>
 
-    <!-- Featured Projects Preview -->
+    <!-- Featured Projects Section -->
     <section class="featured-projects">
         <h2>Featured Projects</h2>
         <div class="project-grid">
+            <!-- Project 1 -->
             <div class="project-card">
-                <h3>Hexacopter Drone</h3>
-                <p>10kg drone with custom ESCs and advanced navigation.</p>
+                <img src="images/Steering1.jpg" alt="FSAE Steering System Design">
+                <h3>FSAE Steering System Design</h3>
+                <p>Led the design and manufacturing of the entire steering system for FSAE vehicle.</p>
                 <a href="projects.html" class="btn">Learn More</a>
             </div>
+            <!-- Project 2 -->
             <div class="project-card">
-                <h3>Rocketry Sensor System</h3>
-                <p>Integrated sensor system for real-time data tracking.</p>
+                <img src="images/circuit1.jpg" alt="STM Microcontroller Schematic Design">
+                <h3>STM Microcontroller Schematic Design</h3>
+                <p>Designed a STM-based microcontroller schematics using Altium Designer.</p>
                 <a href="projects.html" class="btn">Learn More</a>
             </div>
+            <!-- Project 3 -->
             <div class="project-card">
-                <h3>Robotics Prototype</h3>
-                <p>Autonomous robot with mechanical and electrical subsystems.</p>
+                <img src="images/arm1.jpg" alt="Robotic Arm Gripper">
+                <h3>Robotic Arm Gripper</h3>
+                <p>Designed an advanced robotic arm gripper using SolidWorks for precision applications.</p>
                 <a href="projects.html" class="btn">Learn More</a>
             </div>
         </div>
@@ -54,10 +64,22 @@
 
     <!-- Footer -->
     <footer>
-        <p>&copy; 2025 Your Name | Robotics | Rocketry | Engineering</p>
-        <div class="social-links">
-            <a href="https://github.com/faizan-malik" target="_blank">GitHub</a> |
-            <a href="https://linkedin.com/in/faizan-malik" target="_blank">LinkedIn</a>
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h3>About</h3>
+                <p>I'm Faizan Malik, a Mechatronics Engineering Student based out of Vancouver. My interests lie in mechanical, electrical design, and automation.</p>
+            </div>
+            <div class="footer-section contact">
+                <h3>Contact</h3>
+                <p>Feel free to contact me and say hello!</p>
+                <p>Email: <a href="mailto:faizanmalikne@icloud.com">faizanmalikne@icloud.com</a></p>
+                <p>GitHub: <a href="https://github.com/Faizan-malikn" target="_blank">github.com/Faizan-malikn</a></p>
+                <p>LinkedIn: <a href="https://www.linkedin.com/in/faizanm1" target="_blank">linkedin.com/in/faizanm1</a></p>
+            </div>
+        </div>
+        <div class="footer-brand">
+            <h1>FMALIK</h1>
+            <p>&copy; 2025 Faizan Malik</p>
         </div>
     </footer>
 </body>
