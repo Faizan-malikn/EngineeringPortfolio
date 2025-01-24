@@ -245,7 +245,7 @@ header ul li a:hover {
 /* Footer Section */
 footer {
     background: #0073e6; /* Updated to light blue */
-    padding: 15px 10px; /* Reduced vertical padding */
+    padding: 8px 10px; /* Reduced vertical padding */
     text-align: center;
     color: white;
     font-size: 0.9em;
@@ -273,7 +273,7 @@ footer {
 
 .footer-section p {
     font-size: 0.9em;
-    line-height: 1.6;
+    line-height: 1.4; /* Slightly reduced line height for compact spacing */
     color: #d9d9d9;
 }
 
@@ -285,6 +285,21 @@ footer {
 
 .footer-section a:hover {
     color: #003366;
+}
+
+.footer-brand {
+    text-align: center;
+    margin-top: 5px;
+    font-family: 'Pacifico', cursive;
+}
+
+.footer-brand h1 {
+    font-size: 1.2em;
+}
+
+.footer-brand p {
+    font-size: 0.8em;
+    color: #e0e0e0;
 }
 
 /* Responsive Design */
