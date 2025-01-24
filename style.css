@@ -245,7 +245,7 @@ header ul li a:hover {
 /* Footer Section */
 footer {
     background: #0073e6; /* Updated to light blue */
-    padding: 8px 10px; /* Reduced vertical padding */
+    padding: 5px 10px; /* Further reduced vertical padding */
     text-align: center;
     color: white;
     font-size: 0.9em;
@@ -255,7 +255,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 30px;
+    gap: 20px; /* Reduced gap between sections */
     max-width: 800px;
     margin: 0 auto;
 }
@@ -266,20 +266,20 @@ footer {
 }
 
 .footer-section h3 {
-    font-size: 1.2em;
-    margin-bottom: 10px;
+    font-size: 1.1em; /* Slightly smaller text */
+    margin-bottom: 5px; /* Reduced margin */
     color: white;
 }
 
 .footer-section p {
-    font-size: 0.9em;
-    line-height: 1.4; /* Slightly reduced line height for compact spacing */
+    font-size: 0.85em; /* Smaller font size for compact look */
+    line-height: 1.0; /* Reduced line height */
     color: #d9d9d9;
 }
 
 .footer-section a {
     color: #50b3ff;
-    font-size: 0.9em;
+    font-size: 0.85em; /* Slightly smaller links */
     transition: color 0.3s ease;
 }
 
@@ -294,11 +294,11 @@ footer {
 }
 
 .footer-brand h1 {
-    font-size: 1.2em;
+    font-size: 1.1em; /* Reduced brand name font size */
 }
 
 .footer-brand p {
-    font-size: 0.8em;
+    font-size: 0.75em; /* Reduced copyright font size */
     color: #e0e0e0;
 }
 
